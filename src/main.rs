@@ -30,7 +30,7 @@ fn borders() -> Path {
         .set("d", data)
 }
 
-const LOW_POSITIONS: [f64;18] = [
+const HIGH_POSITIONS: [f64;18] = [
     23.5 + 2.5,
     42.5,
     56.7 + 2.5,
@@ -51,7 +51,7 @@ const LOW_POSITIONS: [f64;18] = [
     321.0 - 12.0,
 ];
 
-const HIGH_POSITIONS: [f64;18] = [
+const LOW_POSITIONS: [f64;18] = [
     25.6,
     43.3,
     60.2,
